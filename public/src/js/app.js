@@ -193,9 +193,6 @@ var saveAs = saveAs || (function(view) {
 	|| typeof window !== "undefined" && window
 	|| this.content
 ));
-// `self` is undefined in Firefox for Android content script context
-// while `this` is nsIContentFrameMessageManager
-// with an attribute `content` that corresponds to the window
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports.saveAs = saveAs;
