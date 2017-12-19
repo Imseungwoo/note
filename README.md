@@ -1,2 +1,2 @@
 # note-app
-github pages
+can write and save your text memo
